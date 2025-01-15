@@ -52,7 +52,38 @@ body {
       }
 
 /* Main Content CSS */
+.mc-one {
+    background-color: #1f2937;
+    color: white;
 
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.mc-one.wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    padding: 12px;
+      /* Allows header text to only take up 75% of the width of site! */
+      width: 75vw;
+}
+    .mc-one.left,
+    .mc-one.right {
+        display: flex;
+        flex-direction: column;
+    }
+
+      .mc-one-left.sign-up {
+
+      }
+
+    #mc-one-img {
+        max-width: 300px;
+    }
 
 /* Footer CSS */
 .footer {
