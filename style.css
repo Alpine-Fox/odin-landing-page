@@ -4,3 +4,29 @@
 * {
     font-family: Roboto, Arial, Helvetica, sans-serif;
 }
+
+ul {
+    list-style-type: none;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header.wrapper {
+    background-color: #1f2937;
+    color: white;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+    .nav-right.ul {
+        display: flex;
+        flex-direction: row;
+        gap: 36px;
+    }
+
