@@ -14,19 +14,28 @@ body {
     flex-direction: column;
 }
 
-.header.wrapper {
+.header {
     background-color: #1f2937;
     color: white;
+    font-size: 18px;
+}
 
+.header.wrapper {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+
+    padding: 12px;
 }
+    .header-logo {
+        font-weight: 800;
+    }
 
     .nav-right.ul {
         display: flex;
         flex-direction: row;
+
         gap: 36px;
     }
 
