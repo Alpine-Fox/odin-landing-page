@@ -1,6 +1,7 @@
 /* Font Imports */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
+/* "Universal" CSS */
 * {
     font-family: Roboto, Arial, Helvetica, sans-serif;
 }
@@ -12,35 +13,67 @@ ul {
 body {
     display: flex;
     flex-direction: column;
+    min-height: 100vh;
+
+    margin: 0px;
 }
 
+/* Header CSS */
 .header {
     background-color: #1f2937;
     color: white;
     font-size: 18px;
 
+    margin: 0;
     display: flex;
     justify-content: center;
 }
 
-.header.wrapper {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+    .header.wrapper {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
 
-    padding: 12px;
-    /* Allows header text to only take up 75% of the width of site! */
-    width: 75vw;
-}
-    .header-logo {
-        font-weight: 800;
+      padding: 12px;
+      /* Allows header text to only take up 75% of the width of site! */
+      width: 75vw;
     }
 
-    .nav-right.ul {
+       .header-logo {
+         font-weight: 800;
+      }
+
+     .nav-right.ul {
+          display: flex;
+          flex-direction: row;
+
+          gap: 36px;
+      }
+
+/* Main Content CSS */
+
+
+/* Footer CSS */
+.footer {
+    background-color: #1f2937;
+    color: white;
+    font-size: 18px;
+    
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    .footer.wrapper {
         display: flex;
         flex-direction: row;
+        justify-content: center;
+        align-items: center;
 
-        gap: 36px;
+        padding: 36px;
     }
 
+        .footer.text {
+            margin-bottom: 0px;
+        }
