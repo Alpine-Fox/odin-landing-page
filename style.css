@@ -18,6 +18,9 @@ body {
     background-color: #1f2937;
     color: white;
     font-size: 18px;
+
+    display: flex;
+    justify-content: center;
 }
 
 .header.wrapper {
@@ -27,6 +30,8 @@ body {
     align-items: center;
 
     padding: 12px;
+    /* Allows header text to only take up 75% of the width of site! */
+    width: 75vw;
 }
     .header-logo {
         font-weight: 800;
