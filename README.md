@@ -20,7 +20,7 @@ The main goal with this project is to create a full site with only 2 refrence im
 
 ## Project Task List
 - [x] Basic HTML
-- [ ] Basic CSS
+- [x] Basic CSS
 - [ ] Flexbox Things
 
 ## What would you like to add/change in the future?
